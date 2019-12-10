@@ -1,0 +1,4 @@
+<Channel>
+  <program value="0"/>
+  <synti>Fluid</synti>
+  </Channel>

@@ -1,0 +1,4 @@
+<Articulation name="marcatoTenuto">
+  <velocity>120</velocity>
+  <gateTime>100</gateTime>
+  </Articulation>

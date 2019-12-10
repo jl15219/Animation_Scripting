@@ -1,0 +1,62 @@
+<Part>
+  <Staff id="1">
+    <StaffType group="pitched">
+      <name>stdNormal</name>
+      </StaffType>
+    </Staff>
+  <trackName>Piano</trackName>
+  <Instrument>
+    <longName>Piano</longName>
+    <shortName>Pno.</shortName>
+    <trackName>Piano</trackName>
+    <minPitchP>21</minPitchP>
+    <maxPitchP>108</maxPitchP>
+    <minPitchA>21</minPitchA>
+    <maxPitchA>108</maxPitchA>
+    <instrumentId>keyboard.piano</instrumentId>
+    <Articulation>
+      <velocity>100</velocity>
+      <gateTime>95</gateTime>
+      </Articulation>
+    <Articulation name="staccatissimo">
+      <velocity>100</velocity>
+      <gateTime>33</gateTime>
+      </Articulation>
+    <Articulation name="staccato">
+      <velocity>100</velocity>
+      <gateTime>50</gateTime>
+      </Articulation>
+    <Articulation name="portato">
+      <velocity>100</velocity>
+      <gateTime>67</gateTime>
+      </Articulation>
+    <Articulation name="tenuto">
+      <velocity>100</velocity>
+      <gateTime>100</gateTime>
+      </Articulation>
+    <Articulation name="marcato">
+      <velocity>120</velocity>
+      <gateTime>67</gateTime>
+      </Articulation>
+    <Articulation name="sforzato">
+      <velocity>150</velocity>
+      <gateTime>100</gateTime>
+      </Articulation>
+    <Articulation name="sforzatoStaccato">
+      <velocity>150</velocity>
+      <gateTime>50</gateTime>
+      </Articulation>
+    <Articulation name="marcatoStaccato">
+      <velocity>120</velocity>
+      <gateTime>50</gateTime>
+      </Articulation>
+    <Articulation name="marcatoTenuto">
+      <velocity>120</velocity>
+      <gateTime>100</gateTime>
+      </Articulation>
+    <Channel>
+      <program value="0"/>
+      <synti>Fluid</synti>
+      </Channel>
+    </Instrument>
+  </Part>

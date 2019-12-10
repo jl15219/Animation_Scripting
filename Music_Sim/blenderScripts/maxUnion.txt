@@ -1,0 +1,16 @@
+import bpy
+
+number = 520
+object = "House"
+
+
+for x in range(1,number):
+    bpy.ops.object.modifier_add(type='BOOLEAN')
+    bpy.context.object.modifiers["Boolean"].operation = 'UNION'
+    y = str(x)
+    if (x < 100):
+        y = "0" + y
+        if (x < 10):
+            y = "0" + y
+    bpy.context.object.modifiers["Boolean"].object = bpy.data.objects[object + "." + y]
+    bpy.ops.object.modifier_apply(apply_as='DATA', modifier="Boolean")
